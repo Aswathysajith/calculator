@@ -2,6 +2,14 @@
   function display(num){
     outputScreen.value += num;
  }
+ function Clear()
+      {
+         outputScreen.value = "";
+
+        }
+        function del(){
+            outputScreen.value = outputScreen.value.slice(0, -1);
+         }
  function calculate(){
     try{
         outputScreen.value = eval(outputScreen.value);
@@ -12,14 +20,14 @@
         outputScreen.value = "Error";
         
      }
-     function Clear()
-      {
-         outputScreen.value = "";
+//      function Clear()
+//       {
+//          outputScreen.value = "";
 
-        }
-        function del(){
-            outputScreen.value = outputScreen.value.slice(0, -1);
-         }
+//         }
+//         function del(){
+//             outputScreen.value = outputScreen.value.slice(0, -1);
+//          }
         }
 
            
