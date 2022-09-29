@@ -2,9 +2,9 @@
   function display(num){
     outputScreen.value += num;
  }
- function Clear()
+ function Clearscreen()
       {
-         outputScreen.value = "";
+         outputScreen.value = " ";
 
         }
         function del(){
@@ -16,18 +16,12 @@
      }
      catch(err)
      {
-      //   alert("Error");
-        outputScreen.value = "Error";
+      
+      
+        outputScreen.value ="Error";
         
      }
-//      function Clear()
-//       {
-//          outputScreen.value = "";
-
-//         }
-//         function del(){
-//             outputScreen.value = outputScreen.value.slice(0, -1);
-//          }
+   
         }
 
            

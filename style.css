@@ -5,14 +5,22 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     outline: none;
+    
 
 }
+
 .container{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+}
+h1{
+    text-align: center;
+   padding-top: 50px;
+   color: rgb(9, 76, 201);
 }
 .calculator{
     background-color: rgb(180, 203, 233);
